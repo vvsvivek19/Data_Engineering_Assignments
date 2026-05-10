@@ -217,10 +217,24 @@ FROM car_insurance_data GROUP BY CarInsurance;
 --                                                  Problem 4: Partitioning and bucketing
 -- ========================================================================================================================
 
--- set this property for dynamic partioning
-set hive.exec.dynamic.partition.mode=nonstrict;
+-- Enables the use of dynamic partitioning
+SET hive.exec.dynamic.partition = true;
+
+-- Allows all partitions to be dynamic (default is 'strict', which requires at least one static partition)
+SET hive.exec.dynamic.partition.mode = nonstrict;
+
+/*
+Learning Note:
+1. The columns used in the PARTITIONED BY clause are "virtual" columns.
+2. They must not be included in the main column list of the CREATE TABLE statement, or Hive will throw a SemanticException for repeated columns.
+3. It uses a hierarchical key=value directory structure (e.g., /Education=tertiary/Marital=married/). Hive derives the column values from these folder names rather than the files themselves.
+4. Column Order: When using INSERT with dynamic partitioning, the partition columns must be the last columns in your SELECT statement, in the exact order they appear in the PARTITIONED BY clause.
+5. If you manually add new partition folders to HDFS or GCS, you must run MSCK REPAIR TABLE table_name; to update the Hive Metastore so it can "see" the new data.
+6. Dropping an external partitioned or bucketed table will only delete the metadata entry; your actual data files in HDFS remain untouched.
+*/
 
 -- Create a partitioned table on 'Education' and 'Marital' status. Load data from the original table to this new partitioned table.
+
 CREATE TABLE car_insurance_data_partitioned(
     ID int,
     Age int,
@@ -259,7 +273,14 @@ FROM car_insurance_data;
 -- Set Properties and Command to create buckets
 set hive.enforce.bucketing=true;
 
+/*
+Learning Note:
+1. The columns used in the CLUSTERED BY clause must be included in the main column list because the data values remain part of the actual record inside the file to allow for hashing.
+2. It splits data into a fixed number of physical files within those directories (e.g., 000000_0, 000001_0) based on a hash of the bucketed column.
+*/
+
 -- Create a bucketed table on 'Age', bucketed into 4 groups (as per the age groups mentioned above). Load data from the original table into this bucketed table.
+
 CREATE TABLE car_insurance_data_bucketed(
     ID int,
     Age int,
@@ -290,8 +311,13 @@ STORED AS TEXTFILE;
 -- load data into bucketed table
 INSERT OVERWRITE TABLE car_insurance_data_bucketed SELECT * FROM car_insurance_data;
 
+/*
+Learning Note:
+1. You can't add buckets to already existing bucketed table. Buckets are defined at the time of table creation.
+2. To make these changes, you must follow the "Recreate and Migrate" pattern: create a new table with the desired schema and use an INSERT statement to move the data.
+*/
 -- Add an additional partition on 'Job' to the partitioned table created earlier and move the data accordingly
--- Note: You can't add partition to already existing table, so first create a new table with additional partition and then load data into it
+
 CREATE TABLE car_insurance_data_partitioned_new(
     ID int,
     Age int,
@@ -328,7 +354,7 @@ SELECT
 FROM car_insurance_data;
 
 --  Increase the number of buckets in the bucketed table to 10 and redistribute the data.
--- Note: You can't add buckets to already existing bucketed table. Buckets are defined at the time of table creation. So, create a new bucketed table with 10 buckets and load the data accordingly.
+-- Learning Note: You can't add buckets to already existing bucketed table. Buckets are defined at the time of table creation. So, create a new bucketed table with 10 buckets and load the data accordingly.
 CREATE TABLE car_insurance_data_bucketed_new(
     ID int,
     Age int,

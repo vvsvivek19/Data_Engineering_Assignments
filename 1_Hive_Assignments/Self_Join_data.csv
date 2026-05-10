@@ -1,0 +1,16 @@
+EmployeeID,FirstName,LastName,DeptID,Salary,ManagerID
+1,Alice,Johnson,101,66000.00,2
+2,Bob,Smith,102,78750.00,NULL
+3,Charlie,Davis,101,51975.00,2
+4,Diana,Prince,103,55000.00,1
+5,Evan,Wright,NULL,57200.00,NULL
+6,Frank,Stevens,102,84000.00,2
+7,Gina,Adams,102,75600.00,2
+8,Henry,Ford,101,62000.00,1
+9,Irene,Adler,105,92000.00,NULL
+10,Jack,Sparrow,NULL,45000.00,NULL
+11,Kelly,Kapoor,103,48000.00,NULL
+12,Liam,Neeson,106,88000.00,9
+13,Monica,Geller,104,67000.00,9
+14,Ned,Stark,102,71000.00,2
+15,Oscar,Wilde,NULL,59000.00,NULL
