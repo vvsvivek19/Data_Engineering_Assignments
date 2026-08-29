@@ -107,7 +107,7 @@ rows = cursor.fetchall()
 
 # ---------------------------------------------------------------
 # 7. Preparing a product list of dictionary from fetched data
-# Preparing data would be fed to producer for sending to Kafka Topic
+# Preparing data that would be fed to producer for sending to Kafka Topic
 # ---------------------------------------------------------------
 
 products = []
