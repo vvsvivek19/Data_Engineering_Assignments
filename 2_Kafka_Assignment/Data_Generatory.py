@@ -104,7 +104,7 @@ try:
         next_id += 1
 
         # 5 second wait before generating next record
-        time.sleep(5)
+        time.sleep(1)
 
 except KeyboardInterrupt:
     print("\nData generator stopped by user")

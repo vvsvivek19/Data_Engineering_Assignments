@@ -1,0 +1,5 @@
+#data tranformations
+    product["name"] = product["name"].upper()
+
+    if product["category"] == "Fitness":
+        product["price"] = round(float(product["price"]) * 0.5,2)

@@ -1,0 +1,28 @@
+
+{
+    "type": "record",
+    "name": "Product",
+    "namespace": "novamart.products",
+    "fields": [
+        {
+            "name": "id",
+            "type": "int"
+        },
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "category",
+            "type": "string"
+        },
+        {
+            "name": "price",
+            "type": "double"
+        },
+        {
+            "name": "last_updated",
+            "type": "string"
+        }
+    ]
+}

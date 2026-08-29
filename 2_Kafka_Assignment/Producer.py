@@ -17,7 +17,7 @@ CHECKPOINT_DIRECTORY = "/Users/vvsvivek/Library/CloudStorage/OneDrive-Personal/S
 # ---------------------------------------------------------
 
 kafka_config = {
-    "bootstrap.servers": "pkc-9q8rv.ap-south-2.aws.confluent.cloud:9092",
+    "bootstrap.servers": "pkc-921jm.us-east-2.aws.confluent.cloud:9092",
     "security.protocol": "SASL_SSL",
     "sasl.mechanism": "PLAIN",
     "sasl.username": os.getenv("KAFKA_USERNAME"),
