@@ -1,0 +1,922 @@
+[
+    {
+        "_id": 151,
+        "order_id": 151,
+        "customer": {
+            "customer_id": 1025,
+            "customer_name": "Akash Yadav"
+        },
+        "product": {
+            "product_id": 120,
+            "product_name": "Memory Card",
+            "category": "Storage",
+            "unit_price": 1200.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2025-04-01",
+            "payment_method": "Credit Card",
+            "order_status": "Delivered"
+        },
+        "shipping": {
+            "city": "Indore"
+        }
+    },
+    {
+        "_id": 152,
+        "order_id": 152,
+        "customer": {
+            "customer_id": 1004,
+            "customer_name": "Ananya Kapoor"
+        },
+        "product": {
+            "product_id": 119,
+            "product_name": "USB Flash Drive",
+            "category": "Storage",
+            "unit_price": 900.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2025-07-08",
+            "payment_method": "Credit Card",
+            "order_status": "Delivered"
+        },
+        "shipping": {
+            "city": "Nagpur"
+        }
+    },
+    {
+        "_id": 153,
+        "order_id": 153,
+        "customer": {
+            "customer_id": 1010,
+            "customer_name": "Ishita Nair"
+        },
+        "product": {
+            "product_id": 116,
+            "product_name": "Power Bank",
+            "category": "Accessories",
+            "unit_price": 2500.0
+        },
+        "order_details": {
+            "quantity": 2,
+            "order_date": "2026-07-10",
+            "payment_method": "Debit Card",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Chennai"
+        }
+    },
+    {
+        "_id": 154,
+        "order_id": 154,
+        "customer": {
+            "customer_id": 1006,
+            "customer_name": "Sneha Iyer"
+        },
+        "product": {
+            "product_id": 102,
+            "product_name": "Smartphone",
+            "category": "Electronics",
+            "unit_price": 35000.0
+        },
+        "order_details": {
+            "quantity": 2,
+            "order_date": "2025-07-16",
+            "payment_method": "Credit Card",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Nagpur"
+        }
+    },
+    {
+        "_id": 155,
+        "order_id": 155,
+        "customer": {
+            "customer_id": 1004,
+            "customer_name": "Ananya Kapoor"
+        },
+        "product": {
+            "product_id": 130,
+            "product_name": "Programming Book",
+            "category": "Books",
+            "unit_price": 850.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2026-04-04",
+            "payment_method": "UPI",
+            "order_status": "Returned"
+        },
+        "shipping": {
+            "city": "Chennai"
+        }
+    },
+    {
+        "_id": 156,
+        "order_id": 156,
+        "customer": {
+            "customer_id": 1010,
+            "customer_name": "Ishita Nair"
+        },
+        "product": {
+            "product_id": 116,
+            "product_name": "Power Bank",
+            "category": "Accessories",
+            "unit_price": 2500.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2025-02-10",
+            "payment_method": "Cash on Delivery",
+            "order_status": "Delivered"
+        },
+        "shipping": {
+            "city": "Jaipur"
+        }
+    },
+    {
+        "_id": 157,
+        "order_id": 157,
+        "customer": {
+            "customer_id": 1008,
+            "customer_name": "Neha Gupta"
+        },
+        "product": {
+            "product_id": 128,
+            "product_name": "Coffee Maker",
+            "category": "Home Appliances",
+            "unit_price": 6500.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2026-08-09",
+            "payment_method": "UPI",
+            "order_status": "Cancelled"
+        },
+        "shipping": {
+            "city": "Kanpur"
+        }
+    },
+    {
+        "_id": 158,
+        "order_id": 158,
+        "customer": {
+            "customer_id": 1019,
+            "customer_name": "Manish Tiwari"
+        },
+        "product": {
+            "product_id": 132,
+            "product_name": "Business Book",
+            "category": "Books",
+            "unit_price": 700.0
+        },
+        "order_details": {
+            "quantity": 4,
+            "order_date": "2025-09-21",
+            "payment_method": "Debit Card",
+            "order_status": "Processing"
+        },
+        "shipping": {
+            "city": "Pune"
+        }
+    },
+    {
+        "_id": 159,
+        "order_id": 159,
+        "customer": {
+            "customer_id": 1018,
+            "customer_name": "Riya Saxena"
+        },
+        "product": {
+            "product_id": 116,
+            "product_name": "Power Bank",
+            "category": "Accessories",
+            "unit_price": 2500.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2025-02-28",
+            "payment_method": "UPI",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Pune"
+        }
+    },
+    {
+        "_id": 160,
+        "order_id": 160,
+        "customer": {
+            "customer_id": 1027,
+            "customer_name": "Mohit Jain"
+        },
+        "product": {
+            "product_id": 120,
+            "product_name": "Memory Card",
+            "category": "Storage",
+            "unit_price": 1200.0
+        },
+        "order_details": {
+            "quantity": 2,
+            "order_date": "2025-06-29",
+            "payment_method": "Debit Card",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Surat"
+        }
+    },
+    {
+        "_id": 161,
+        "order_id": 161,
+        "customer": {
+            "customer_id": 1009,
+            "customer_name": "Karan Malhotra"
+        },
+        "product": {
+            "product_id": 105,
+            "product_name": "Monitor",
+            "category": "Electronics",
+            "unit_price": 15000.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2026-09-04",
+            "payment_method": "Debit Card",
+            "order_status": "Cancelled"
+        },
+        "shipping": {
+            "city": "Kolkata"
+        }
+    },
+    {
+        "_id": 162,
+        "order_id": 162,
+        "customer": {
+            "customer_id": 1011,
+            "customer_name": "Rahul Deshmukh"
+        },
+        "product": {
+            "product_id": 118,
+            "product_name": "External Hard Drive",
+            "category": "Storage",
+            "unit_price": 5500.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2026-02-19",
+            "payment_method": "Net Banking",
+            "order_status": "Returned"
+        },
+        "shipping": {
+            "city": "Ahmedabad"
+        }
+    },
+    {
+        "_id": 163,
+        "order_id": 163,
+        "customer": {
+            "customer_id": 1006,
+            "customer_name": "Sneha Iyer"
+        },
+        "product": {
+            "product_id": 112,
+            "product_name": "USB-C Hub",
+            "category": "Accessories",
+            "unit_price": 2200.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2026-04-16",
+            "payment_method": "Cash on Delivery",
+            "order_status": "Cancelled"
+        },
+        "shipping": {
+            "city": "Jaipur"
+        }
+    },
+    {
+        "_id": 164,
+        "order_id": 164,
+        "customer": {
+            "customer_id": 1007,
+            "customer_name": "Aditya Rao"
+        },
+        "product": {
+            "product_id": 122,
+            "product_name": "Standing Desk",
+            "category": "Furniture",
+            "unit_price": 18000.0
+        },
+        "order_details": {
+            "quantity": 3,
+            "order_date": "2025-08-07",
+            "payment_method": "Net Banking",
+            "order_status": "Returned"
+        },
+        "shipping": {
+            "city": "Kanpur"
+        }
+    },
+    {
+        "_id": 165,
+        "order_id": 165,
+        "customer": {
+            "customer_id": 1012,
+            "customer_name": "Meera Joshi"
+        },
+        "product": {
+            "product_id": 105,
+            "product_name": "Monitor",
+            "category": "Electronics",
+            "unit_price": 15000.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2025-07-18",
+            "payment_method": "Credit Card",
+            "order_status": "Delivered"
+        },
+        "shipping": {
+            "city": "Surat"
+        }
+    },
+    {
+        "_id": 166,
+        "order_id": 166,
+        "customer": {
+            "customer_id": 1005,
+            "customer_name": "Vikram Singh"
+        },
+        "product": {
+            "product_id": 103,
+            "product_name": "Tablet",
+            "category": "Electronics",
+            "unit_price": 28000.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2025-07-31",
+            "payment_method": "UPI",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Bhopal"
+        }
+    },
+    {
+        "_id": 167,
+        "order_id": 167,
+        "customer": {
+            "customer_id": 1007,
+            "customer_name": "Aditya Rao"
+        },
+        "product": {
+            "product_id": 139,
+            "product_name": "Running Shoes",
+            "category": "Clothing",
+            "unit_price": 4500.0
+        },
+        "order_details": {
+            "quantity": 2,
+            "order_date": "2026-03-31",
+            "payment_method": "Wallet",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Kanpur"
+        }
+    },
+    {
+        "_id": 168,
+        "order_id": 168,
+        "customer": {
+            "customer_id": 1030,
+            "customer_name": "Aditi Srivastava"
+        },
+        "product": {
+            "product_id": 117,
+            "product_name": "External SSD",
+            "category": "Storage",
+            "unit_price": 7000.0
+        },
+        "order_details": {
+            "quantity": 2,
+            "order_date": "2026-07-16",
+            "payment_method": "Cash on Delivery",
+            "order_status": "Returned"
+        },
+        "shipping": {
+            "city": "Jaipur"
+        }
+    },
+    {
+        "_id": 169,
+        "order_id": 169,
+        "customer": {
+            "customer_id": 1013,
+            "customer_name": "Arjun Patel"
+        },
+        "product": {
+            "product_id": 121,
+            "product_name": "Office Chair",
+            "category": "Furniture",
+            "unit_price": 12000.0
+        },
+        "order_details": {
+            "quantity": 3,
+            "order_date": "2025-12-09",
+            "payment_method": "UPI",
+            "order_status": "Cancelled"
+        },
+        "shipping": {
+            "city": "Nagpur"
+        }
+    },
+    {
+        "_id": 170,
+        "order_id": 170,
+        "customer": {
+            "customer_id": 1004,
+            "customer_name": "Ananya Kapoor"
+        },
+        "product": {
+            "product_id": 136,
+            "product_name": "Dumbbell Set",
+            "category": "Fitness",
+            "unit_price": 4500.0
+        },
+        "order_details": {
+            "quantity": 2,
+            "order_date": "2025-06-13",
+            "payment_method": "Credit Card",
+            "order_status": "Cancelled"
+        },
+        "shipping": {
+            "city": "Kanpur"
+        }
+    },
+    {
+        "_id": 171,
+        "order_id": 171,
+        "customer": {
+            "customer_id": 1002,
+            "customer_name": "Priya Mehta"
+        },
+        "product": {
+            "product_id": 137,
+            "product_name": "Resistance Bands",
+            "category": "Fitness",
+            "unit_price": 900.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2026-07-19",
+            "payment_method": "Debit Card",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Ahmedabad"
+        }
+    },
+    {
+        "_id": 172,
+        "order_id": 172,
+        "customer": {
+            "customer_id": 1004,
+            "customer_name": "Ananya Kapoor"
+        },
+        "product": {
+            "product_id": 120,
+            "product_name": "Memory Card",
+            "category": "Storage",
+            "unit_price": 1200.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2025-08-05",
+            "payment_method": "Net Banking",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Surat"
+        }
+    },
+    {
+        "_id": 173,
+        "order_id": 173,
+        "customer": {
+            "customer_id": 1027,
+            "customer_name": "Mohit Jain"
+        },
+        "product": {
+            "product_id": 131,
+            "product_name": "Data Science Book",
+            "category": "Books",
+            "unit_price": 1200.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2025-12-24",
+            "payment_method": "Wallet",
+            "order_status": "Returned"
+        },
+        "shipping": {
+            "city": "Chandigarh"
+        }
+    },
+    {
+        "_id": 174,
+        "order_id": 174,
+        "customer": {
+            "customer_id": 1029,
+            "customer_name": "Harsh Vardhan"
+        },
+        "product": {
+            "product_id": 113,
+            "product_name": "Webcam",
+            "category": "Accessories",
+            "unit_price": 3500.0
+        },
+        "order_details": {
+            "quantity": 3,
+            "order_date": "2025-05-19",
+            "payment_method": "UPI",
+            "order_status": "Delivered"
+        },
+        "shipping": {
+            "city": "Kanpur"
+        }
+    },
+    {
+        "_id": 175,
+        "order_id": 175,
+        "customer": {
+            "customer_id": 1011,
+            "customer_name": "Rahul Deshmukh"
+        },
+        "product": {
+            "product_id": 137,
+            "product_name": "Resistance Bands",
+            "category": "Fitness",
+            "unit_price": 900.0
+        },
+        "order_details": {
+            "quantity": 4,
+            "order_date": "2025-04-05",
+            "payment_method": "UPI",
+            "order_status": "Returned"
+        },
+        "shipping": {
+            "city": "Kolkata"
+        }
+    },
+    {
+        "_id": 176,
+        "order_id": 176,
+        "customer": {
+            "customer_id": 1013,
+            "customer_name": "Arjun Patel"
+        },
+        "product": {
+            "product_id": 142,
+            "product_name": "Backpack",
+            "category": "Clothing",
+            "unit_price": 2500.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2025-10-12",
+            "payment_method": "Wallet",
+            "order_status": "Processing"
+        },
+        "shipping": {
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "_id": 177,
+        "order_id": 177,
+        "customer": {
+            "customer_id": 1021,
+            "customer_name": "Saurabh Mishra"
+        },
+        "product": {
+            "product_id": 142,
+            "product_name": "Backpack",
+            "category": "Clothing",
+            "unit_price": 2500.0
+        },
+        "order_details": {
+            "quantity": 2,
+            "order_date": "2025-11-12",
+            "payment_method": "UPI",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Kochi"
+        }
+    },
+    {
+        "_id": 178,
+        "order_id": 178,
+        "customer": {
+            "customer_id": 1022,
+            "customer_name": "Tanvi Shah"
+        },
+        "product": {
+            "product_id": 107,
+            "product_name": "Bluetooth Speaker",
+            "category": "Electronics",
+            "unit_price": 4500.0
+        },
+        "order_details": {
+            "quantity": 2,
+            "order_date": "2025-06-30",
+            "payment_method": "UPI",
+            "order_status": "Returned"
+        },
+        "shipping": {
+            "city": "Lucknow"
+        }
+    },
+    {
+        "_id": 179,
+        "order_id": 179,
+        "customer": {
+            "customer_id": 1008,
+            "customer_name": "Neha Gupta"
+        },
+        "product": {
+            "product_id": 135,
+            "product_name": "Yoga Mat",
+            "category": "Fitness",
+            "unit_price": 1200.0
+        },
+        "order_details": {
+            "quantity": 2,
+            "order_date": "2026-02-28",
+            "payment_method": "Credit Card",
+            "order_status": "Cancelled"
+        },
+        "shipping": {
+            "city": "Mumbai"
+        }
+    },
+    {
+        "_id": 180,
+        "order_id": 180,
+        "customer": {
+            "customer_id": 1016,
+            "customer_name": "Pooja Choudhary"
+        },
+        "product": {
+            "product_id": 103,
+            "product_name": "Tablet",
+            "category": "Electronics",
+            "unit_price": 28000.0
+        },
+        "order_details": {
+            "quantity": 2,
+            "order_date": "2025-05-01",
+            "payment_method": "Credit Card",
+            "order_status": "Returned"
+        },
+        "shipping": {
+            "city": "Patna"
+        }
+    },
+    {
+        "_id": 181,
+        "order_id": 181,
+        "customer": {
+            "customer_id": 1004,
+            "customer_name": "Ananya Kapoor"
+        },
+        "product": {
+            "product_id": 114,
+            "product_name": "Laptop Stand",
+            "category": "Accessories",
+            "unit_price": 1800.0
+        },
+        "order_details": {
+            "quantity": 3,
+            "order_date": "2025-07-01",
+            "payment_method": "Net Banking",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Mumbai"
+        }
+    },
+    {
+        "_id": 182,
+        "order_id": 182,
+        "customer": {
+            "customer_id": 1019,
+            "customer_name": "Manish Tiwari"
+        },
+        "product": {
+            "product_id": 130,
+            "product_name": "Programming Book",
+            "category": "Books",
+            "unit_price": 850.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2026-08-20",
+            "payment_method": "Wallet",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Surat"
+        }
+    },
+    {
+        "_id": 183,
+        "order_id": 183,
+        "customer": {
+            "customer_id": 1028,
+            "customer_name": "Nandini Roy"
+        },
+        "product": {
+            "product_id": 129,
+            "product_name": "Electric Kettle",
+            "category": "Home Appliances",
+            "unit_price": 1800.0
+        },
+        "order_details": {
+            "quantity": 3,
+            "order_date": "2025-04-13",
+            "payment_method": "UPI",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Hyderabad"
+        }
+    },
+    {
+        "_id": 184,
+        "order_id": 184,
+        "customer": {
+            "customer_id": 1005,
+            "customer_name": "Vikram Singh"
+        },
+        "product": {
+            "product_id": 137,
+            "product_name": "Resistance Bands",
+            "category": "Fitness",
+            "unit_price": 900.0
+        },
+        "order_details": {
+            "quantity": 3,
+            "order_date": "2025-12-11",
+            "payment_method": "Wallet",
+            "order_status": "Cancelled"
+        },
+        "shipping": {
+            "city": "Bhopal"
+        }
+    },
+    {
+        "_id": 185,
+        "order_id": 185,
+        "customer": {
+            "customer_id": 1004,
+            "customer_name": "Ananya Kapoor"
+        },
+        "product": {
+            "product_id": 113,
+            "product_name": "Webcam",
+            "category": "Accessories",
+            "unit_price": 3500.0
+        },
+        "order_details": {
+            "quantity": 5,
+            "order_date": "2025-04-19",
+            "payment_method": "Wallet",
+            "order_status": "Delivered"
+        },
+        "shipping": {
+            "city": "Chennai"
+        }
+    },
+    {
+        "_id": 186,
+        "order_id": 186,
+        "customer": {
+            "customer_id": 1007,
+            "customer_name": "Aditya Rao"
+        },
+        "product": {
+            "product_id": 108,
+            "product_name": "Gaming Console",
+            "category": "Electronics",
+            "unit_price": 52000.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2025-06-01",
+            "payment_method": "Debit Card",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Patna"
+        }
+    },
+    {
+        "_id": 187,
+        "order_id": 187,
+        "customer": {
+            "customer_id": 1004,
+            "customer_name": "Ananya Kapoor"
+        },
+        "product": {
+            "product_id": 113,
+            "product_name": "Webcam",
+            "category": "Accessories",
+            "unit_price": 3500.0
+        },
+        "order_details": {
+            "quantity": 2,
+            "order_date": "2025-06-06",
+            "payment_method": "Wallet",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Kolkata"
+        }
+    },
+    {
+        "_id": 188,
+        "order_id": 188,
+        "customer": {
+            "customer_id": 1011,
+            "customer_name": "Rahul Deshmukh"
+        },
+        "product": {
+            "product_id": 132,
+            "product_name": "Business Book",
+            "category": "Books",
+            "unit_price": 700.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2025-12-19",
+            "payment_method": "Cash on Delivery",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Indore"
+        }
+    },
+    {
+        "_id": 189,
+        "order_id": 189,
+        "customer": {
+            "customer_id": 1023,
+            "customer_name": "Varun Khanna"
+        },
+        "product": {
+            "product_id": 133,
+            "product_name": "Notebook",
+            "category": "Stationery",
+            "unit_price": 250.0
+        },
+        "order_details": {
+            "quantity": 1,
+            "order_date": "2026-01-11",
+            "payment_method": "Credit Card",
+            "order_status": "Shipped"
+        },
+        "shipping": {
+            "city": "Delhi"
+        }
+    },
+    {
+        "_id": 190,
+        "order_id": 190,
+        "customer": {
+            "customer_id": 1012,
+            "customer_name": "Meera Joshi"
+        },
+        "product": {
+            "product_id": 142,
+            "product_name": "Backpack",
+            "category": "Clothing",
+            "unit_price": 2500.0
+        },
+        "order_details": {
+            "quantity": 3,
+            "order_date": "2025-03-14",
+            "payment_method": "Wallet",
+            "order_status": "Cancelled"
+        },
+        "shipping": {
+            "city": "Pune"
+        }
+    }
+]
