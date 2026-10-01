@@ -257,3 +257,32 @@ for record in records:
     logistics_records.append(logistics_record)
 
 pprint(logistics_records[0])
+
+# ---------------------------------------------------------
+# 6. Delivery callback
+# ---------------------------------------------------------
+
+def deliver_report(err,msg):
+    if err is not None:
+        print(f"Message Delivery Failed {err}")
+    else:
+        print(
+            f"Message Delivered - "
+            f"Topic: {msg.topic()} | "
+            f"Key: {msg.key()} | "
+            f"Partition: {msg.partition()}"
+        )
+
+# ---------------------------------------------------------
+# 7. Serializing logistics data and sending it to Kafka
+# ---------------------------------------------------------
+
+for logistics_record in logistics_records:
+    producer.produce(
+        topic=TOPIC_NAME,
+        key = logistics_record["BookingID"],
+        value = logistics_record,
+        on_delivery=deliver_report
+    )
+
+producer.flush()
