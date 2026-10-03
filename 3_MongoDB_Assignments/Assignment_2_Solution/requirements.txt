@@ -1,0 +1,8 @@
+confluent-kafka
+pymongo
+certifi
+httpx
+authlib
+cachetools
+attrs
+fastavro
