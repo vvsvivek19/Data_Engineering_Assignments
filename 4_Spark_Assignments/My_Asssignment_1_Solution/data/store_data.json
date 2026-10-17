@@ -1,0 +1,82 @@
+[
+    {
+        "store_name": "McDonald",
+        "place_ids": ["CASSBB-11", "CADGBD-13", "FDBEGD-14"]
+    },
+    {
+        "store_name": "BurgerKing",
+        "place_ids": ["CASSBB-11", "BADGBA-12"]
+    },
+    {
+        "store_name": "Macys",
+        "place_ids": ["BADGBA-13", "CASSBB-15", "FDBEGD-15"]
+    },
+    {
+        "store_name": "shoppers stop",
+        "place_ids": ["BADGBA-12", "CADGBD-13"]
+    },
+    {
+        "store_name": "Subway",
+        "place_ids": ["CADGBD-13", "FDBEGD-14", "BADGBA-13"]
+    },
+    {
+        "store_name": "Walmart",
+        "place_ids": ["CASSBB-11", "FDBEGD-15", "BADGBA-12"]
+    },
+    {
+        "store_name": "Target",
+        "place_ids": ["CASSBB-15", "CADGBD-13"]
+    },
+    {
+        "store_name": "Starbucks",
+        "place_ids": ["FDBEGD-14", "BADGBA-13", "CASSBB-11"]
+    },
+    {
+        "store_name": "KFC",
+        "place_ids": ["BADGBA-12", "FDBEGD-15"]
+    },
+    {
+        "store_name": "Dominos",
+        "place_ids": ["CADGBD-13", "CASSBB-15", "FDBEGD-14"]
+    },
+    {
+        "store_name": "Pizza Hut",
+        "place_ids": ["BADGBA-13", "CASSBB-11"]
+    },
+    {
+        "store_name": "Taco Bell",
+        "place_ids": ["FDBEGD-15", "BADGBA-12", "CADGBD-13"]
+    },
+    {
+        "store_name": "Costco",
+        "place_ids": ["CASSBB-15", "FDBEGD-14"]
+    },
+    {
+        "store_name": "Best Buy",
+        "place_ids": ["BADGBA-13", "FDBEGD-15"]
+    },
+    {
+        "store_name": "Nike",
+        "place_ids": ["CASSBB-11", "BADGBA-12", "CASSBB-15"]
+    },
+    {
+        "store_name": "Adidas",
+        "place_ids": ["CADGBD-13", "FDBEGD-14"]
+    },
+    {
+        "store_name": "Apple Store",
+        "place_ids": ["FDBEGD-15", "CASSBB-15"]
+    },
+    {
+        "store_name": "IKEA",
+        "place_ids": ["BADGBA-12", "CASSBB-11", "FDBEGD-14"]
+    },
+    {
+        "store_name": "Dominos Canada",
+        "place_ids": ["BADGBA-13", "CADGBD-13"]
+    },
+    {
+        "store_name": "Tim Hortons",
+        "place_ids": ["FDBEGD-14", "FDBEGD-15", "CASSBB-15"]
+    }
+]
