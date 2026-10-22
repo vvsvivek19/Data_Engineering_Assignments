@@ -1,0 +1,5 @@
+gcloud compute scp "/Users/vvsvivek/Library/CloudStorage/OneDrive-Personal/Skills & Career/3. Data Engineering/Data_Engineering_Assignments/4_Spark_Assignments/My_Assignment_2_Solution/data/tags.csv" ichigokurasaki242_gmail_com@spark-test-m:/home/ichigokurasaki242_gmail_com
+
+
+hadoop fs -mkdir /assignment_2_data
+hadoop fs -put /home/ichigokurasaki242_gmail_com/ad_campaigns_data.json /assignment_1_data
