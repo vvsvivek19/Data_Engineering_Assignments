@@ -1,0 +1,4 @@
+1. Create Kakfa Topic
+2. Create Schema in Schema Registry
+3. Connect with Kafka topic in data producer
+4. 
