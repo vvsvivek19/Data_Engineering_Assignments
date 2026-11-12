@@ -1,30 +1,12 @@
 from datetime import datetime, timedelta
 from airflow import DAG
+from airflow.sdk import dag, task
 from airflow.providers.google.cloud.operators.dataproc import (
     DataprocCreateClusterOperator,
     DataprocSubmitJobOperator,
     DataprocDeleteClusterOperator
 )
 from airflow.providers.google.cloud.sensors.gcs import GCSObjectExistenceSensor
-
-default_args = {
-    'owner': 'airflow',
-    'depends_on_past': False,
-    'email_on_failure': False,
-    'email_on_retry': False,
-    'retries': 1,
-    'retry_delay': timedelta(minutes=5),
-    'start_date': datetime(2026, 10, 24),
-}
-
-dag = DAG(
-    "Assignment_1_DAG",
-    default_args=default_args,
-    description="Main dag to process csv files using pyspark",
-    schedule_interval = "0 0 * * *", # Job runs everyday at 12:00 AM
-    catchup=False,
-    tags=['assignment']
-)
  
 # Define cluster config
 CLUSTER_NAME = 'assignment-1-cluster'
